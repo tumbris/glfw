@@ -5,7 +5,7 @@ project "GLFW"
     location "%{wks.location}"
 
 	targetdir (target_dir)
-	objdir ("bin-int/" .. output_dir .. "/%{prj.name}")
+	objdir (output_dir)
 
 	files
 	{
